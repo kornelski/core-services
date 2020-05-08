@@ -1,6 +1,6 @@
 [package]
 name = "core-services"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Kornel <kornel@geekhood.net>"]
 edition = "2018"
 license = "CC0-1.0"
@@ -9,6 +9,7 @@ categories = ["os::macos-apis"]
 keywords = ["launch-services", "uti", "lsopen"]
 repository = "https://github.com/kornelski/core-services"
 homepage = "https://lib.rs/crates/core-services"
+include = ["README.md", "/src/*.rs", "Cargo.toml"]
 
 [dependencies]
 core-foundation = "0.7.0"
