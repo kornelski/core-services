@@ -1,6 +1,6 @@
 [package]
 name = "core-services"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Kornel <kornel@geekhood.net>"]
 edition = "2018"
 license = "CC0-1.0"
@@ -12,7 +12,7 @@ homepage = "https://lib.rs/crates/core-services"
 include = ["README.md", "/src/*.rs", "Cargo.toml"]
 
 [dependencies]
-core-foundation = "0.7.0"
+core-foundation = "0.9.1"
 
 [badges]
 maintenance = { status = "passively-maintained" }
