@@ -1,12 +1,12 @@
 [package]
 name = "core-services"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Kornel <kornel@geekhood.net>"]
-edition = "2018"
+edition = "2021"
 license = "CC0-1.0"
 description = "Bindings for CoreServices.framework"
 categories = ["os::macos-apis"]
-keywords = ["launch-services", "uti", "lsopen"]
+keywords = ["launch-services", "uti", "lsopen", "apple"]
 repository = "https://github.com/kornelski/core-services"
 homepage = "https://lib.rs/crates/core-services"
 include = ["README.md", "/src/*.rs", "Cargo.toml"]
