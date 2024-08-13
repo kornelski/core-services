@@ -1,18 +1,19 @@
 [package]
 name = "core-services"
-version = "0.2.1"
+version = "1.0.0"
 authors = ["Kornel <kornel@geekhood.net>"]
 edition = "2021"
 license = "CC0-1.0"
-description = "Bindings for CoreServices.framework"
+description = "Incomplete bindings for CoreServices.framework"
 categories = ["os::macos-apis"]
 keywords = ["launch-services", "uti", "lsopen", "apple"]
 repository = "https://github.com/kornelski/core-services"
 homepage = "https://lib.rs/crates/core-services"
 include = ["README.md", "/src/*.rs", "Cargo.toml"]
+rust-version = "1.75"
 
 [dependencies]
-core-foundation = "0.9.1"
+core-foundation = "0.10.0"
 
 [badges]
 maintenance = { status = "passively-maintained" }
